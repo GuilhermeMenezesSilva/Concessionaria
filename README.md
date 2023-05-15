@@ -6,8 +6,7 @@ Este é um programa com interface gráfica para cadastro e consulta de veículos
 
 Para criar este programa, foram utilizadas as seguintes tecnologias:
 
-- Java
-- JavaFX
+- `JavaFX`
 
 ## Como utilizar
 
