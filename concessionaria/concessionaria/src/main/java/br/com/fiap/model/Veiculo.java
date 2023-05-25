@@ -1,7 +1,9 @@
-package br.com.fiap;
+package br.com.fiap.model;
+
 
 public class Veiculo implements Comparable<Veiculo> {
-
+    //Model BO POJO Entity Resource
+    //atributos
     private String marca;
     private String modelo;
     private String placa;
@@ -59,11 +61,11 @@ public class Veiculo implements Comparable<Veiculo> {
     @Override
     public String toString() {
         return placa + " " + marca + " " + modelo + " (" + ano + "): R$ " + preco;
-
     }
 
     @Override
     public int compareTo(Veiculo outro) {
-        return Integer.compare(this.ano, outro.getAno());
+       return Integer.compare(this.ano, outro.getAno());
     }
+ 
 }
